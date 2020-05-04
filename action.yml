@@ -1,0 +1,6 @@
+# action.yml
+name: 'Covid-19 Tracker'
+description: 'Execute the run.py file in singhrahuldps/covid19tracker'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
